@@ -1,4 +1,4 @@
-<<?php
+<?php
 
     $con = new mysqli('localhost:3306', 'root', '');
     if ($con->connect_error) {
