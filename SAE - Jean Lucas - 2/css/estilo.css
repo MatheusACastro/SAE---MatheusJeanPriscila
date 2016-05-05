@@ -1,0 +1,126 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Grid de 960px*/
+.linha{
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 5px 0;
+  height: auto;
+}
+.coluna{
+  padding: 0 10px;
+  float: left;
+  height: auto;
+}
+.col1{
+  width: 60px;
+}
+.col2{
+  width: 140px;
+}
+.col3{
+  width: 220px;
+}
+.col4{
+  width: 300px;
+}
+.col5{
+  width: 380px;
+}
+.col6{
+  width: 460px;
+}
+.col7{
+  width: 540px;
+}
+.col8{
+  width: 620px;
+}
+.col9{
+  width: 700px;
+}
+.col10{
+  width: 780px;
+}
+.col11{
+  width: 860px;
+}
+.col12{
+  width: 940px;
+}
+
+.content{
+  
+}
+
+/*Cabeçalho*/
+header{
+  background: #dee3e6;
+}
+
+
+header .col4{
+  font-weight: 300;
+  color: #315e8a;
+  letter-spacing: 2px;
+}
+.col8 ul li{
+  display: inline;
+  margin-right: 25px;
+}
+.col8 ul li:last-child{
+  display: inline;
+  margin-right: 0px;
+}
+.col8 li a{
+  list-style: none;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #315e8a;
+}
+.col8 li a:hover{
+  text-decoration: underline;
+  color: #ebebeb;
+  background: #1f3c58;
+
+}
+
+.menu{
+  margin-right: 15px;
+  text-align: right;
+  margin-top: 33px;
+}
+.negrito{
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+
+#footer{
+  background: #315e8a;
+}
+#footer .linha{
+  text-align: center;
+  color: #ebebeb;
+}
+
+#tab1{
+  text-align: center;
+  width: 940px;
+}
+
+#mostraacao h4{
+  text-align: center;
+}
+#mostraacao h5{
+  text-align: center;
+  font-size: 15px;
+}
